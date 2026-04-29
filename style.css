@@ -413,6 +413,11 @@ footer { position: relative; z-index: 1; padding: 3rem 2rem; border-top: 1px sol
   color: #fff;
   box-shadow: 0 6px 20px rgba(0, 98, 255, 0.4);
 }
+.cph-logo {
+  background: linear-gradient(135deg, #8a1538, #b01b47);
+  color: #fff;
+  box-shadow: 0 6px 20px rgba(138, 21, 56, 0.4);
+}
 .cert-issuer-name {
   display: block;
   font-size: 0.9rem;

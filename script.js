@@ -125,8 +125,25 @@ document.querySelectorAll('.project-card').forEach(card => {
   });
 });
 
-/* ===== CONTACT FORM — handled by FormSubmit.co ===== */
-/* Messages are emailed to allenmanoj772@gmail.com   */
+/* ===== CONTACT FORM — Google Forms Handling ===== */
+const contactForm = document.getElementById('contactForm');
+const formSuccess = document.getElementById('form-success');
+
+if (contactForm) {
+  contactForm.addEventListener('submit', () => {
+    // We assume it's successful since it's posting to the hidden iframe
+    setTimeout(() => {
+      contactForm.style.display = 'none';
+      formSuccess.style.display = 'block';
+    }, 500);
+  });
+}
+
+function resetForm() {
+  contactForm.reset();
+  contactForm.style.display = 'block';
+  formSuccess.style.display = 'none';
+}
 
 /* ===== SMOOTH SCROLL FOR NAV LINKS ===== */
 document.querySelectorAll('a[href^="#"]').forEach(a => {
