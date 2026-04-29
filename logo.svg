@@ -1,0 +1,5 @@
+<svg width="120" height="80" viewBox="0 0 120 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Minimalist AM Monogram -->
+  <path d="M10 70L45 10L65 45L85 10L110 70" stroke="currentColor" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter"/>
+  <path d="M35 55L45 35L55 55" stroke="currentColor" stroke-width="10" stroke-linecap="square" stroke-linejoin="miter"/>
+</svg>
